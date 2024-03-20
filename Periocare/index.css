@@ -1,0 +1,213 @@
+.image-1-icon {
+    height: 760px;
+    width: 253px;
+    position: relative;
+    object-fit: cover;
+  }
+  .image-2-icon,
+  .imageedit-1-3345553200-1-icon {
+    position: absolute;
+    margin: 0 !important;
+    object-fit: cover;
+  }
+  .imageedit-1-3345553200-1-icon {
+    height: 183px;
+    width: 170px;
+    bottom: -39px;
+    left: -158px;
+  }
+  .image-2-icon {
+    height: 339px;
+    width: 501px;
+    top: -296px;
+    right: -334px;
+  }
+  .periocare,
+  .syncing-you-with {
+    display: inline-block;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .syncing-you-with {
+    position: absolute;
+    margin: 0 !important;
+    right: -228px;
+    bottom: -21px;
+  }
+  .periocare {
+    margin: 0;
+    height: 144px;
+    flex: 1;
+    position: relative;
+    font-size: 120px;
+    font-weight: 700;
+    font-family: inherit;
+    color: #ed2a46;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .imageedit-1-3345553200-1-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+  }
+  .login {
+    position: relative;
+    display: inline-block;
+    min-width: 100px;
+  }
+  .frame-child {
+    height: 86px;
+    width: 356px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 43px);
+    left: calc(50% - 178px);
+    border-radius: var(--br-31xl);
+    background-color: rgba(237, 42, 70, 0.15);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+  }
+  .login-parent,
+  .sign-up-label {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .login-parent {
+    position: relative;
+  }
+  .sign-up-label {
+    padding: 0 12px;
+  }
+  .sign-up {
+    position: relative;
+    white-space: nowrap;
+  }
+  .frame-item {
+    height: 86px;
+    width: 356px;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 43px);
+    left: -116px;
+    border-radius: var(--br-31xl);
+    z-index: 1;
+  }
+  .sign-up-label-parent,
+  .sign-up-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .sign-up-parent {
+    flex-direction: row;
+    position: relative;
+  }
+  .sign-up-label-parent {
+    flex-direction: column;
+    gap: 45px;
+  }
+  .frame-wrapper {
+    width: 419px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-21xl);
+    color: var(--color-black);
+    font-family: var(--font-ibarra-real-nova);
+  }
+  .desktop-2,
+  .desktop-2-inner,
+  .frame-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-parent {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 135px;
+    max-width: 100%;
+  }
+  .desktop-2,
+  .desktop-2-inner {
+    box-sizing: border-box;
+  }
+  .desktop-2-inner {
+    width: 589px;
+    flex-direction: column;
+    padding: 32px 0 0;
+    min-width: 589px;
+    max-width: 100%;
+  }
+  .desktop-2 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: row;
+    padding: 264px 0 0;
+    gap: 264px;
+    letter-spacing: normal;
+    text-align: left;
+    font-size: 36px;
+    color: #ed2b46;
+    font-family: var(--font-inria-sans);
+  }
+  @media screen and (max-width: 1100px) {
+    .desktop-2-inner,
+    .image-1-icon {
+      flex: 1;
+    }
+    .desktop-2 {
+      flex-wrap: wrap;
+      gap: 264px 132px;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .syncing-you-with {
+      font-size: 29px;
+    }
+    .periocare {
+      font-size: 48px;
+    }
+    .login,
+    .sign-up {
+      font-size: var(--font-size-13xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frame-parent {
+      gap: 67px 135px;
+    }
+    .desktop-2-inner {
+      min-width: 100%;
+    }
+    .desktop-2 {
+      gap: 264px 66px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .syncing-you-with {
+      font-size: 22px;
+    }
+    .periocare {
+      font-size: 30px;
+    }
+    .login,
+    .sign-up {
+      font-size: var(--font-size-5xl);
+    }
+    .frame-parent {
+      gap: 34px 135px;
+    }
+}

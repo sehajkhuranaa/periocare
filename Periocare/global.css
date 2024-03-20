@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-ibarra-real-nova: "Ibarra Real Nova";
+    --font-inria-sans: "Inria Sans";
+  
+    /* font sizes */
+    --font-size-21xl: 40px;
+    --font-size-5xl: 24px;
+    --font-size-13xl: 32px;
+  
+    /* Colors */
+    --color-black: #000;
+  }
